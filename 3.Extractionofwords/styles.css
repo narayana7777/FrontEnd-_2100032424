@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left bottom, #cdeb16, #ffd06c, #ffcfcd, #ffe9ff, #ffffff);
+    font-family: Arial, sans-serif;
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    width: 90%;
+    max-width: 800px;
+    /* padding: 20px; */
+    
+}
+
+#paragraph {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(29, 26, 26, 0.1);
+    /* padding: 30px; */
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 2px 5px;
+    border-radius: 3px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Data Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        <h2>Interactive Data Table</h2><br>
+
+        <input type="text" id="searchInput" placeholder="Search...">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th data-column="name">Name <span class="sort" data-column="name">&#x25B2;&#x25BC;</span></th>
+                    <th data-column="position">Position <span class="sort" data-column="position">&#x25B2;&#x25BC;</span></th>
+                    <th data-column="office">Office <span class="sort" data-column="office">&#x25B2;&#x25BC;</span></th>
+                    <th data-column="age">Age <span class="sort" data-column="age">&#x25B2;&#x25BC;</span></th>
+                    <th data-column="start_date">Start Date <span class="sort" data-column="start_date">&#x25B2;&#x25BC;</span></th>
+                    <th data-column="salary">Salary <span class="sort" data-column="salary">&#x25B2;&#x25BC;</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be populated here -->
+            </tbody>
+        </table>
+        <div class="pagination" id="pagination"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
